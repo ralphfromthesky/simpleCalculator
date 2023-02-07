@@ -1,0 +1,43 @@
+body {
+    background: white;
+}
+
+table.tbl {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 18px #bebebe,
+        -20px -20px 18px #ffffff;
+        border: 2px solid black;
+}
+
+input[type="button"] {
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    font-size: 2em;
+    border: 1px solid #030303;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    margin: 10px 60px 10px 0px;
+}
+
+input[type="text"] {
+    color: black;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    font-size: 2em;
+    width: 100%;
+}
+
+#clear {
+    background: #888585;
+    border: 1px solid #1a1516;
+    border-radius: 10px;
+}
